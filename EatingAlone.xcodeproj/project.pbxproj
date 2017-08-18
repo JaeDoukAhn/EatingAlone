@@ -12,6 +12,8 @@
 		983185631F46BBC0006F9692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983185611F46BBC0006F9692 /* Main.storyboard */; };
 		983185651F46BBC0006F9692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 983185641F46BBC0006F9692 /* Assets.xcassets */; };
 		983185681F46BBC0006F9692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983185661F46BBC0006F9692 /* LaunchScreen.storyboard */; };
+		983185701F46BC19006F9692 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9831856F1F46BC19006F9692 /* UserInfo.swift */; };
+		983185721F46D604006F9692 /* AloneListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983185711F46D604006F9692 /* AloneListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		983185641F46BBC0006F9692 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		983185671F46BBC0006F9692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		983185691F46BBC0006F9692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9831856F1F46BC19006F9692 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		983185711F46D604006F9692 /* AloneListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AloneListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				983185641F46BBC0006F9692 /* Assets.xcassets */,
 				983185661F46BBC0006F9692 /* LaunchScreen.storyboard */,
 				983185691F46BBC0006F9692 /* Info.plist */,
+				9831856F1F46BC19006F9692 /* UserInfo.swift */,
+				983185711F46D604006F9692 /* AloneListTableViewController.swift */,
 			);
 			path = EatingAlone;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				983185601F46BBC0006F9692 /* ViewController.swift in Sources */,
+				983185701F46BC19006F9692 /* UserInfo.swift in Sources */,
 				9831855E1F46BBC0006F9692 /* AppDelegate.swift in Sources */,
+				983185721F46D604006F9692 /* AloneListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
